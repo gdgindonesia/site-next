@@ -32,7 +32,7 @@
 <div class="container-default">
 		<div class="warp">
 				<div class="run-down">
-					<h4 class="titl-dark">Run Down at Next ’17.</h4>
+					<h4 class="titl-dark">Rundown at Next ’17.</h4>
 					<div class="table-responsive">
 						<table class="table table-striped custab">
 				    <thead>
