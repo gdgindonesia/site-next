@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 //$config['base_url'] = 'http://localhost/hipstoreci/';
-$config['base_url'] = 'http://kibar.id/new/next/';
+$config['base_url'] = 'http://next.gdgindonesia.org/';
 $config['index_page'] = '';
 $config['uri_protocol'] = 'AUTO';
 
