@@ -47,7 +47,7 @@ body {
 .navbar-brand>img {
     display: block;
     width: 100%;
-    max-width: 150px;
+    max-width: 160px;
 }
 
 .navbar-brand {
@@ -146,9 +146,9 @@ h4.titl-dark {
 }
 
 .count-down h2 {
-    font-weight: 400;
-    font-size: 202px;
-    margin-bottom: 0px;
+  font-weight: 400;
+    font-size: 146px;
+    margin-bottom: 10px;
 }
 
 .count-down p {
@@ -395,4 +395,46 @@ h4.titl-dark {
   .btn-reg {
       margin-bottom: 20px;
   }
+}
+
+
+.none {
+  display: none !Important;
+}
+
+h3.small-header {
+    font-size: 16px;
+    color: #a7a7a7;
+    margin-bottom: 40px;
+}
+
+img.med-size {
+    width: 100%;
+    max-width: 250px;
+    margin-bottom: 40px;
+}
+
+img.small-size {
+    width: 100%;
+    max-width: 180px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+.iocn-sosmed i {
+    color: #fff;
+    font-size: 21px;
+    margin: 0px 10px;
+}
+
+.iocn-sosmed {
+    color: #fff;
+    position: absolute;
+}
+
+h4.coming {
+    color: #338ecf;
+    font-size: 32px;
+    letter-spacing: 13px;
+    margin: 80px 0px 120px;
 }

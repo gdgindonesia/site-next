@@ -39,19 +39,20 @@
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
 	      </button>
-	      <a class="navbar-brand" href="#"><img src="<?= base_url();?>media/images/logonext.png"></a>
+	      <a class="navbar-brand" href="#"><img src="<?= base_url();?>media/images/logo.png"></a>
 	    </div>
 
 	    <!-- Collect the nav links, forms, and other content for toggling -->
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	      <ul class="nav navbar-nav navbar-right">
-	        <li class="active"><a href="#">Home</a></li>
-	        <li><a href="#">Bogor</a></li>
-	        <li><a href="#">Depok</a></li>
-	        <li><a href="#">Jakarta</a></li>
-	        <li><a href="#">Semarang</a></li>
-	        <li><a href="#">Surabaya</a></li>
-	        <li><a href="#">Yogyakarta</a></li>
+	        <li class="hm"><a href="<?= base_url();?>home">Home</a></li>
+	        <li><a href="<?= base_url();?>bandung">Bandung</a></li>
+	        <li><a href="<?= base_url();?>bogor">Bogor</a></li>
+	        <li><a href="<?= base_url();?>depok">Depok</a></li>
+	        <li class="jkt"><a href="<?= base_url();?>jakarta">Jakarta</a></li>
+	        <li><a href="<?= base_url();?>semarang">Semarang</a></li>
+	        <li><a href="<?= base_url();?>surabaya">Surabaya</a></li>
+	        <li><a href="<?= base_url();?>yogyakarta">Yogyakarta</a></li>
 	      </ul>
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
@@ -67,9 +68,29 @@
 	} ?>
 </div>
 
+<div class="be-footer" align="center">
+	<div class="warp">
+		<h3 class="small-header">Organized by</h3>
+		<img class="med-size" src="https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Logo-GDG-Indonesia.png">
+		<br/>
+		<img class="small-size" src="media/images/gdgbogor.png">
+		<img class="small-size" src="media/images/gdgbandung.png">
+		<img class="small-size" src="https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Logo-GDG-Depok.png">
+		<img class="small-size" src="https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Logo-GDG-Jakarta.png">
+		<img class="small-size" src="https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Logo-GDG-Semarang.png">
+		<img class="small-size" src="https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Logo-GDG-Surabaya.png">
+		<img class="small-size" src="https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Logo-GDG-Yogyakarta.png">
+
+	</div>
+</div>
 
 <div class="footers">
-		<p>GDG DevFest 2016</p>
+	<div class="iocn-sosmed">
+		<a href="http://facebook.com/gdgid" target="_blank"><i class="icon ion-social-facebook"></i></a>
+		<a href="http://plus.google.com/+GDGIndonesia" target="_blank"><i class="icon ion-social-googleplus"></i></a>
+		<a href="https://twitter.com/googledevsid" target="_blank"><i class="icon ion-social-twitter"></i></a>
+	</div>
+	<p>GDG Indonesia 2017</p>
 </div>
 
 
@@ -80,6 +101,7 @@
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="<?= base_url();?>media/js/bootstrap.min.js"></script>
 <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+
 
 <script>
 jQuery(document).ready(function(){
